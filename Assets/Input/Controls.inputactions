@@ -1,0 +1,130 @@
+{
+    "name": "Controls",
+    "maps": [
+        {
+            "name": "dialogue",
+            "id": "c6a22e79-45bb-41d5-bee1-058fedc800d9",
+            "actions": [
+                {
+                    "name": "interact",
+                    "type": "Button",
+                    "id": "ea3a0e61-c665-4f6d-8816-e9ded7c03c37",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "submit",
+                    "type": "Button",
+                    "id": "5bb69b73-57ad-4641-8a8a-d98e53ab29a6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "cancel",
+                    "type": "Button",
+                    "id": "03dca9a0-4950-44b7-9d79-30ca4897e1ee",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5e7c69e4-cc4f-40b9-9448-0660917b54a9",
+                    "path": "<Keyboard>/i",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9f64681f-141a-46be-b9a6-d679d5ca7702",
+                    "path": "<Keyboard>/space",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "submit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8c0d4540-cf77-426d-a8e1-8396c2951a9b",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "cancel",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "main",
+            "id": "5791deb9-36be-47fa-b7f3-c127421d3899",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "a9690d85-8dcc-4793-b668-11c4ea4dc008",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "25db2100-e23d-41de-b31e-d121117e2b5e",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "map",
+            "id": "8d81e5b5-e246-4815-8c66-d76f09e60bfb",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "1f30bcf3-ec38-40f9-94cb-4d832a61be3a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c0ec9764-0ef4-48f9-ab52-2f01abd51248",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

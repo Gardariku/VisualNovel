@@ -9,6 +9,12 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Mm]emoryCaptures/
+/[Uu]ser[Ss]ettings/
+
+# Ignore actual game content or intellectual property of story author
+/[Aa]ssets/Resources/Dialogue*
+/[Aa]ssets/Resources/Characters*
+/[Aa]ssets/Resources/Backgrounds*
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
